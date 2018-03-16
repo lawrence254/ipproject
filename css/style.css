@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Russo+One');
+/* font-family: 'Shrikhand', cursive; */
+/* font-family: 'Poiret One', cursive; */
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#cover{
+  	height: 100%;
+  	width: 100%;
+  	background-image: url('../images/back.jpeg');
+  	background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    display: table;
+}
+.content{
+  display: table-cell;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  top: 0;
+  vertical-align: middle;
+}
+.content h1{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+#container{
+  margin: 0;
+  text-align: justify;
+  background-image: url('../images/texture.jpeg');
+  background-size: cover;
+}
+.intro h2{
+  text-align: center;
+  font-family: 'Russ One',cursive;
+}
+.intro p{
+  font-family: 'Poiret One',cursive;
+  font-size: 20px;
+  padding: 1%;
+}
+.projects h2{
+  text-align: center;
+  font-family: 'Russ One',cursive;
+}
+.projects p{
+  text-align: justify;
+  font-family: 'Poiret One',cursive;
+  font-size: 20px;
+  padding: 1%;
+  font-weight: bolder;
+}
