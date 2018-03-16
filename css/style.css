@@ -50,6 +50,7 @@ html,body{
   text-align: justify;
   background-image: url('../images/texture.jpeg');
   background-size: cover;
+
 }
 .intro h2{
   text-align: center;
@@ -75,6 +76,9 @@ html,body{
   width: 100%;
   border-radius: 5px 5px 0 0;
 }
+.flex-container{
+  display: flex;
+}
 .cards{
   box-shadow: 0 4px 8px 0 #00000033;
   transition: 0.3s;
@@ -83,6 +87,7 @@ html,body{
   padding-bottom: 1%;
   border-radius: 5px;
   background-color: white;
+
 }
 .cards:hover{
   box-shadow: 0 8px 16px 0 #00000033;
