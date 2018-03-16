@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Berkshire+Swash|Righteous');
 /* font-family: 'Shrikhand', cursive; */
 /* font-family: 'Poiret One', cursive; */
 html,body{
@@ -43,7 +43,12 @@ html,body{
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Righteous';
+  color: #261563;
+}
+.content p{
+  text-align: center;
+  font-weight:400;
 }
 #container{
   margin: 0;
@@ -51,7 +56,6 @@ html,body{
   text-align: justify;
   background-image: url('../images/texture.jpeg');
   background-size: cover;
-
 }
 .intro h2{
   text-align: center;
