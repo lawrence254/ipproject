@@ -7,6 +7,22 @@ html,body{
   margin: 0;
   padding: 0;
 }
+nav{
+  align-items:center;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+  padding: 1%;
+  font-family: 'Berkshire Swash',cursive;
+  background: linear-gradient(to right, #3c3b3f, #605c3c);
+  height: 25px;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  border: 2px brown;
+  padding: 2% 2%;
+}
 .button {
   background-color: #258e08;
   border-radius: 5px;
