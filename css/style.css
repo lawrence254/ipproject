@@ -7,6 +7,20 @@ html,body{
   margin: 0;
   padding: 0;
 }
+.button {
+  background-color: ForestGreen;
+  border-radius: 5px;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+  margin-bottom: 2%;
+}
+
+.button:focus,
+.button:hover {
+  background-color: DarkGreen;
+}
+
 #cover{
   	height: 100%;
   	width: 100%;
@@ -32,6 +46,7 @@ html,body{
 }
 #container{
   margin: 0;
+  padding: 1%;
   text-align: justify;
   background-image: url('../images/texture.jpeg');
   background-size: cover;
@@ -55,4 +70,24 @@ html,body{
   font-size: 20px;
   padding: 1%;
   font-weight: bolder;
+}
+.cards img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.cards{
+  box-shadow: 0 4px 8px 0 #00000033;
+  transition: 0.3s;
+  width: 25%;
+  margin: 1%;
+  padding-bottom: 1%;
+  border-radius: 5px;
+  background-color: white;
+}
+.cards:hover{
+  box-shadow: 0 8px 16px 0 #00000033;
+}
+.cardcontent{
+  padding: 2px 16px;
+  text-align: center;
 }
