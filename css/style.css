@@ -24,7 +24,7 @@ html,body{
 #cover{
   	height: 100%;
   	width: 100%;
-  	background-image: url('../images/cover.jpg');
+  	background-image: url('../images/cover2.jpeg');
   	background-size: cover;
     padding: 0%;
     margin: 0%;
@@ -44,11 +44,13 @@ html,body{
   margin: 0 auto;
   text-align: center;
   font-family: 'Righteous';
-  color: #261563;
+    background: linear-gradient(to right, #ff512f, #dd2476); 
+  font-size: 48px;
 }
 .content p{
   text-align: center;
   font-weight:400;
+
 }
 #container{
   margin: 0;
