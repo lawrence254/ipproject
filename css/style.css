@@ -8,7 +8,7 @@ html,body{
   padding: 0;
 }
 .button {
-  background-color: ForestGreen;
+  background-color: #258e08;
   border-radius: 5px;
   color: white;
   padding: .5em;
@@ -107,4 +107,8 @@ html,body{
 .cardcontent{
   padding: 2px 16px;
   text-align: center;
+}
+span{
+  font-style: italic;
+  font-weight: bold;
 }
