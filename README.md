@@ -15,6 +15,6 @@ All images were used with permissions of the owners. You can find them [here](ht
 ## Contact details
 You can contact me at lawrenslava1[at]gmail[dot]com
 ### License
-[License](https://github.com/lawrence254/ipproject/LICENSE.md)
+[License](https://github.com/lawrence254/ipproject/blob/master/LICENSE)
 *MIT*
-Copyright (c) {2018} **LAWRENCE KARANJA**
+Copyright (c) 2018 **LAWRENCE KARANJA**
